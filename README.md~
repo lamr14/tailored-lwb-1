@@ -1,5 +1,4 @@
 # tailored-lwb
-//Carpeta copiada a la PC del Lab en el 22/11/16
 This is a contiki implementation of LWB and FS-LWB for sky motes.
 
 The apps folder contains the LWB related codes. You can run the given simulation file using cooja. If you want to create your own simulation, ensure that you select "Radio medium" as "Multi-path Ray-tracer Medium (MRM)" instead of the default "UDGM".
