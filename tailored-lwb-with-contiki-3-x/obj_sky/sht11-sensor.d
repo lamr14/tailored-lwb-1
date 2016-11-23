@@ -1,4 +1,4 @@
-obj_sky/sht11-sensor.o: ../../../dev/sht11/sht11-sensor.c \
+obj_sky/sht11-sensor.o: ../../../core/dev/sht11-sensor.c \
  ../../../core/./contiki.h ../../../core/./contiki-version.h \
  ../../../platform/sky/./contiki-conf.h \
  ../../../platform/sky/./platform-conf.h \
@@ -14,9 +14,9 @@ obj_sky/sht11-sensor.o: ../../../dev/sht11/sht11-sensor.c \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h \
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h \
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h \
- ../../../core/./lib/sensors.h ../../../dev/sht11/sht11.h \
- ../../../dev/sht11/sht11-sensor.h
-../../../dev/sht11/sht11-sensor.c :
+ ../../../core/./lib/sensors.h ../../../core/./dev/sht11.h \
+ ../../../core/./dev/sht11-sensor.h
+../../../core/dev/sht11-sensor.c :
  ../../../core/./contiki.h ../../../core/./contiki-version.h :
  ../../../platform/sky/./contiki-conf.h :
  ../../../platform/sky/./platform-conf.h :
@@ -32,5 +32,5 @@ obj_sky/sht11-sensor.o: ../../../dev/sht11/sht11-sensor.c \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h :
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h :
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h :
- ../../../core/./lib/sensors.h ../../../dev/sht11/sht11.h :
- ../../../dev/sht11/sht11-sensor.h :
+ ../../../core/./lib/sensors.h ../../../core/./dev/sht11.h :
+ ../../../core/./dev/sht11-sensor.h :

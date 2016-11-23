@@ -14,7 +14,7 @@ obj_sky/tailored-glossy.o: lwb/tailored-glossy.c lwb/tailored-glossy.h \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h \
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h \
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h \
- ../../../core/./dev/watchdog.h ../../../dev/cc2420/cc2420_const.h \
+ ../../../core/./dev/watchdog.h ../../../core/dev/cc2420_const.h \
  ../../../core/./dev/leds.h lwb/fast-spi.h ../../../core/sys/node-id.h
 lwb/tailored-glossy.c lwb/tailored-glossy.h :
  ../../../core/./contiki.h ../../../core/./contiki-version.h :
@@ -32,5 +32,5 @@ lwb/tailored-glossy.c lwb/tailored-glossy.h :
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h :
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h :
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h :
- ../../../core/./dev/watchdog.h ../../../dev/cc2420/cc2420_const.h :
+ ../../../core/./dev/watchdog.h ../../../core/dev/cc2420_const.h :
  ../../../core/./dev/leds.h lwb/fast-spi.h ../../../core/sys/node-id.h :

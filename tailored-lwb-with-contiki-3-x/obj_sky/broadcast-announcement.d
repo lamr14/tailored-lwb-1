@@ -15,20 +15,17 @@ obj_sky/broadcast-announcement.o: \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h \
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h \
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h \
- ../../../core/./net/rime/rime.h ../../../core/./net/rime/announcement.h \
- ../../../core/./net/linkaddr.h ../../../core/./net/rime/collect.h \
+ ../../../core/./net/rime.h ../../../core/./net/rime/announcement.h \
+ ../../../core/./net/rime/rimeaddr.h ../../../core/./net/rime/collect.h \
  ../../../core/./net/rime/runicast.h ../../../core/./net/rime/stunicast.h \
  ../../../core/./sys/ctimer.h ../../../core/./net/rime/unicast.h \
  ../../../core/./net/rime/broadcast.h ../../../core/./net/rime/abc.h \
- ../../../core/./net/packetbuf.h ../../../core/./net/llsec/llsec802154.h \
- ../../../core/./net/mac/frame802154.h ../../../core/./net/ip/uip.h \
- ../../../core/./net/ip/uipopt.h ../../../core/./net/ip/tcpip.h \
- ../../../core/./net/rime/channel.h ../../../core/./net/rime/chameleon.h \
- ../../../core/./net/queuebuf.h \
+ ../../../core/./net/packetbuf.h ../../../core/./net/rime/channel.h \
+ ../../../core/./net/rime/chameleon.h ../../../core/./net/queuebuf.h \
  ../../../core/./net/rime/neighbor-discovery.h \
  ../../../core/./net/rime/collect-neighbor.h \
  ../../../core/./net/rime/collect-link-estimate.h \
- ../../../core/./lib/list.h ../../../core/./net/rime/packetqueue.h \
+ ../../../core/./lib/list.h ../../../core/./net/packetqueue.h \
  ../../../core/./lib/memb.h ../../../core/./net/rime/ipolite.h \
  ../../../core/./net/rime/mesh.h ../../../core/./net/rime/multihop.h \
  ../../../core/./net/rime/route-discovery.h \
@@ -55,20 +52,17 @@ obj_sky/broadcast-announcement.o: \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h :
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h :
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h :
- ../../../core/./net/rime/rime.h ../../../core/./net/rime/announcement.h :
- ../../../core/./net/linkaddr.h ../../../core/./net/rime/collect.h :
+ ../../../core/./net/rime.h ../../../core/./net/rime/announcement.h :
+ ../../../core/./net/rime/rimeaddr.h ../../../core/./net/rime/collect.h :
  ../../../core/./net/rime/runicast.h ../../../core/./net/rime/stunicast.h :
  ../../../core/./sys/ctimer.h ../../../core/./net/rime/unicast.h :
  ../../../core/./net/rime/broadcast.h ../../../core/./net/rime/abc.h :
- ../../../core/./net/packetbuf.h ../../../core/./net/llsec/llsec802154.h :
- ../../../core/./net/mac/frame802154.h ../../../core/./net/ip/uip.h :
- ../../../core/./net/ip/uipopt.h ../../../core/./net/ip/tcpip.h :
- ../../../core/./net/rime/channel.h ../../../core/./net/rime/chameleon.h :
- ../../../core/./net/queuebuf.h :
+ ../../../core/./net/packetbuf.h ../../../core/./net/rime/channel.h :
+ ../../../core/./net/rime/chameleon.h ../../../core/./net/queuebuf.h :
  ../../../core/./net/rime/neighbor-discovery.h :
  ../../../core/./net/rime/collect-neighbor.h :
  ../../../core/./net/rime/collect-link-estimate.h :
- ../../../core/./lib/list.h ../../../core/./net/rime/packetqueue.h :
+ ../../../core/./lib/list.h ../../../core/./net/packetqueue.h :
  ../../../core/./lib/memb.h ../../../core/./net/rime/ipolite.h :
  ../../../core/./net/rime/mesh.h ../../../core/./net/rime/multihop.h :
  ../../../core/./net/rime/route-discovery.h :

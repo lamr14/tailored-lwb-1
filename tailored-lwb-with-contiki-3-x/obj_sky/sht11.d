@@ -1,4 +1,4 @@
-obj_sky/sht11.o: ../../../dev/sht11/sht11.c ../../../core/./contiki.h \
+obj_sky/sht11.o: ../../../core/dev/sht11.c ../../../core/./contiki.h \
  ../../../core/./contiki-version.h ../../../platform/sky/./contiki-conf.h \
  ../../../platform/sky/./platform-conf.h \
  ../../../cpu/msp430/./msp430def.h project-conf.h \
@@ -13,8 +13,8 @@ obj_sky/sht11.o: ../../../dev/sht11/sht11.c ../../../core/./contiki.h \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h \
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h \
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h \
- ../../../dev/sht11/sht11.h ../../../platform/sky/dev/sht11-arch.h
-../../../dev/sht11/sht11.c ../../../core/./contiki.h :
+ ../../../core/./dev/sht11.h ../../../platform/sky/dev/sht11-arch.h
+../../../core/dev/sht11.c ../../../core/./contiki.h :
  ../../../core/./contiki-version.h ../../../platform/sky/./contiki-conf.h :
  ../../../platform/sky/./platform-conf.h :
  ../../../cpu/msp430/./msp430def.h project-conf.h :
@@ -29,4 +29,4 @@ obj_sky/sht11.o: ../../../dev/sht11/sht11.c ../../../core/./contiki.h \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h :
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h :
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h :
- ../../../dev/sht11/sht11.h ../../../platform/sky/dev/sht11-arch.h :
+ ../../../core/./dev/sht11.h ../../../platform/sky/dev/sht11-arch.h :

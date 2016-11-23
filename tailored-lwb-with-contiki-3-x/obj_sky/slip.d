@@ -13,8 +13,8 @@ obj_sky/slip.o: ../../../core/dev/slip.c ../../../core/./contiki.h \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h \
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h \
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h \
- ../../../core/./net/ip/uip.h ../../../core/./net/ip/uipopt.h \
- ../../../core/./net/ip/tcpip.h ../../../core/./net/ipv4/uip-fw.h \
+ ../../../core/./net/uip.h ../../../core/./net/uipopt.h \
+ ../../../core/./net/tcpip.h ../../../core/./net/uip-fw.h \
  ../../../core/./dev/slip.h
 ../../../core/dev/slip.c ../../../core/./contiki.h :
  ../../../core/./contiki-version.h ../../../platform/sky/./contiki-conf.h :
@@ -31,6 +31,6 @@ obj_sky/slip.o: ../../../core/dev/slip.c ../../../core/./contiki.h \
  ../../../core/./sys/rtimer.h ../../../core/./sys/pt.h :
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h :
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h :
- ../../../core/./net/ip/uip.h ../../../core/./net/ip/uipopt.h :
- ../../../core/./net/ip/tcpip.h ../../../core/./net/ipv4/uip-fw.h :
+ ../../../core/./net/uip.h ../../../core/./net/uipopt.h :
+ ../../../core/./net/tcpip.h ../../../core/./net/uip-fw.h :
  ../../../core/./dev/slip.h :

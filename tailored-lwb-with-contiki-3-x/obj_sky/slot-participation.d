@@ -15,7 +15,7 @@ obj_sky/slot-participation.o: lwb/slot-participation.c \
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h \
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h \
  lwb/tailored-glossy.h ../../../core/./dev/watchdog.h \
- ../../../dev/cc2420/cc2420_const.h ../../../core/./dev/leds.h \
+ ../../../core/dev/cc2420_const.h ../../../core/./dev/leds.h \
  lwb/fast-spi.h lwb/slot-def.h ../../../core/sys/node-id.h
 lwb/slot-participation.c :
  lwb/slot-participation.h lwb/tailored-lwb.h ../../../core/./contiki.h :
@@ -34,5 +34,5 @@ lwb/slot-participation.c :
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h :
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h :
  lwb/tailored-glossy.h ../../../core/./dev/watchdog.h :
- ../../../dev/cc2420/cc2420_const.h ../../../core/./dev/leds.h :
+ ../../../core/dev/cc2420_const.h ../../../core/./dev/leds.h :
  lwb/fast-spi.h lwb/slot-def.h ../../../core/sys/node-id.h :

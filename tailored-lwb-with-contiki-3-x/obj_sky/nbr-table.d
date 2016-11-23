@@ -15,10 +15,10 @@ obj_sky/nbr-table.o: ../../../core/net/nbr-table.c \
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h \
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h \
  ../../../core/./lib/memb.h ../../../core/./lib/list.h \
- ../../../core/./net/nbr-table.h ../../../core/./net/linkaddr.h \
- ../../../core/./net/netstack.h ../../../core/./net/llsec/llsec.h \
- ../../../core/./net/mac/mac.h ../../../core/./dev/radio.h \
- ../../../core/./net/mac/rdc.h ../../../core/./net/mac/framer.h
+ ../../../core/./net/nbr-table.h ../../../core/./net/rime/rimeaddr.h \
+ ../../../core/./net/netstack.h ../../../core/./net/mac/mac.h \
+ ../../../core/./dev/radio.h ../../../core/./net/mac/rdc.h \
+ ../../../core/./net/mac/framer.h
 ../../../core/net/nbr-table.c :
  ../../../core/./contiki.h ../../../core/./contiki-version.h :
  ../../../platform/sky/./contiki-conf.h :
@@ -36,7 +36,7 @@ obj_sky/nbr-table.o: ../../../core/net/nbr-table.c \
  ../../../core/./sys/procinit.h ../../../core/./sys/loader.h :
  ../../../core/./sys/clock.h ../../../core/./sys/energest.h :
  ../../../core/./lib/memb.h ../../../core/./lib/list.h :
- ../../../core/./net/nbr-table.h ../../../core/./net/linkaddr.h :
- ../../../core/./net/netstack.h ../../../core/./net/llsec/llsec.h :
- ../../../core/./net/mac/mac.h ../../../core/./dev/radio.h :
- ../../../core/./net/mac/rdc.h ../../../core/./net/mac/framer.h :
+ ../../../core/./net/nbr-table.h ../../../core/./net/rime/rimeaddr.h :
+ ../../../core/./net/netstack.h ../../../core/./net/mac/mac.h :
+ ../../../core/./dev/radio.h ../../../core/./net/mac/rdc.h :
+ ../../../core/./net/mac/framer.h :
